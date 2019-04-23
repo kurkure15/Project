@@ -10,13 +10,15 @@ export class RecipeListComponent implements OnInit {
     new Recipe( //here we instantiated the constructor created in recipe.model.ts
       "Chhole Bhature",
       "Served with Cholle",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bhatura.jpg/800px-Bhatura.jpg"),
-      new Recipe( //here we instantiated the constructor created in recipe.model.ts
-        "Chhole Bhature",
-        "Served with Cholle",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bhatura.jpg/800px-Bhatura.jpg")
-      ];
-      
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bhatura.jpg/800px-Bhatura.jpg"
+    ),
+    new Recipe( //here we instantiated the constructor created in recipe.model.ts
+      "Chhole Bhature",
+      "Served with Cholle",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bhatura.jpg/800px-Bhatura.jpg"
+    )
+  ];
+
   constructor() {}
 
   ngOnInit() {}
